@@ -1,0 +1,71 @@
+html, body{
+    margin: 0;
+    height: 100%;
+}
+.wrapper
+{
+    width: 50%;
+    margin: 0 auto;
+    min-width: 700px;
+}
+.button_container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.button
+{
+    box-sizing: border-box;
+    width: 33.33%;
+    padding: 10px 0;
+    text-align: center;
+    background-color: red;
+    color:  white;
+    font-size: xx-large;
+    border: solid 2px black;
+}
+.column_container
+{
+    display: flex;
+    object-fit: cover;
+}
+.cat_column
+{
+    flex-grow: 1;
+    background-color: blue;
+    position: relative;
+}
+
+.dog_column
+{
+    flex-grow: 1;
+    background-color: green;
+}
+
+.cat_column img
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 300px;
+    
+}
+.dog_column img
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+    width: 350px;
+    height: 300px;
+}
+
+.active{
+    max-width: 10%;
+}
+.active img
+{
+    display: none;
+}
